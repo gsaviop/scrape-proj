@@ -1,6 +1,4 @@
 const puppeteer = require("puppeteer");
-const express = require("express");
-const app = express();
 
 async function scrapePage() {
     //abrindo a página no browser headless
