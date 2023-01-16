@@ -1,0 +1,24 @@
+{
+  "name": "scrape-proj",
+  "version": "1.0.0",
+  "description": "First attempt on an algorithm that scrapes an e-commerce type page and return a JSON file that lists all products of a certain brand from cheapest to most expensive using Node.js and Puppeteer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gsaviop/scrape-proj.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gsaviop/scrape-proj/issues"
+  },
+  "homepage": "https://github.com/gsaviop/scrape-proj#readme",
+  "dependencies": {
+    "puppeteer": "^19.5.2"
+  }
+}
